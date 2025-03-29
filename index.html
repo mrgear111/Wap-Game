@@ -4,10 +4,27 @@
     <link rel="stylesheet" href="global.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Truth&Dare</title>
 </head>
 <body style="background-color: black;">
-    <h1 class="hero-title">This is a gambeling game 🤑</h1>
+    <h1 class="hero-title">Truth and Dare</h1>
+    <div class="game-container">
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h2>Truth or Dare?</h2>
+                    <div class="button-container">
+                        <button id="truth-btn" class="game-btn truth">TRUTH</button>
+                        <button id="dare-btn" class="game-btn dare">DARE</button>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <p id="question-text">Your question will appear here</p>
+                    <button id="next-btn" class="game-btn next">NEXT</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
